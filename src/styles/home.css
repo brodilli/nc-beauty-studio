@@ -1,0 +1,72 @@
+/* HERO */
+
+.hero-section{
+  padding:120px 20px;
+  background:#fcf8fa;
+}
+
+.hero-section h1{
+  font-weight:700;
+  color:#36242c;
+  margin-bottom:20px;
+}
+
+.hero-section p{
+  max-width:650px;
+  margin:auto;
+  color:#6b5a60;
+  font-size:1.1rem;
+}
+
+
+/* TITULOS */
+
+.section-title{
+  font-weight:600;
+  color:#36242c;
+  position:relative;
+}
+
+.section-title::after{
+  content:"";
+  display:block;
+  width:50px;
+  height:2px;
+  background:#d4af37;
+  margin-top:10px;
+}
+
+
+/* SERVICIOS */
+
+.services-section{
+  padding:80px 0;
+  background:white;
+}
+
+
+/* ABOUT */
+
+.about-section{
+  padding:80px 0;
+  background:#f8f6f7;
+}
+
+.about-img{
+  width:100%;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+
+/* CTA */
+
+.cta-section{
+  padding:80px 20px;
+  background:#221018;
+  color:white;
+}
+
+.cta-section h2{
+  margin-bottom:10px;
+}

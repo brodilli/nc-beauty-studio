@@ -1,0 +1,56 @@
+/* NAVBAR BASE */
+
+.navbar-beauty{
+  background: #fcf8fa;
+  border-bottom: 2px solid #c0a94d;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  transition: all .3s ease;
+}
+
+/* LOGO */
+
+.brand-logo{
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #c0a94d;
+  letter-spacing: 1px;
+}
+
+/* LINKS */
+
+.beauty-link{
+  color: #36242c;
+  font-weight: 500;
+  position: relative;
+  transition: all .25s ease;
+}
+
+/* HOVER */
+
+.beauty-link:hover{
+  color: #c0a94d;
+}
+
+/* LINEA DORADA ANIMADA */
+
+.beauty-link::after{
+  content:"";
+  position:absolute;
+  width:0%;
+  height:2px;
+  left:0;
+  bottom:-5px;
+  background:#c0a94d;
+  transition: width .3s;
+}
+
+.beauty-link:hover::after{
+  width:100%;
+}
+
+/* SOMBRA SUAVE */
+
+.navbar-beauty{
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
