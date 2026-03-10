@@ -1,11 +1,12 @@
 import "../styles/navbar.css"
 import { Link } from "react-router-dom"
+import logo from "../assets/logo.svg"
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-beauty sticky-top">
       <div className="container">
-        <img src="src/assets/logo.svg" alt="NC Beauty Studio Logo" width={'100px'} />
+        <img src={logo} alt="NC Beauty Studio Logo" width={'100px'} />
         <a className="navbar-brand brand-logo" href="#">
           Beauty Studio
         </a>
