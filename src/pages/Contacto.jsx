@@ -38,7 +38,7 @@ function Contacto() {
             </div>
 
             <a
-              href="https://wa.me/5210000000000"
+              href="https://wa.me/523421029554"
               target="_blank"
               className="whatsapp-btn"
             >

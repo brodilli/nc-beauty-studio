@@ -1,9 +1,10 @@
+import { useNavigate } from "react-router-dom"
 import '../styles/BeautyCard.css'
 import { useContext } from "react"
 import { CartContext } from "../context/CartContext"
 
 const BeautyCard = ({ id, title, text, image, price }) => {
-
+  const navigate = useNavigate()
   const { addToCart } = useContext(CartContext)
 
   const handleAdd = () => {
@@ -12,6 +13,7 @@ const BeautyCard = ({ id, title, text, image, price }) => {
       name: title,
       price
     })
+    navigate("/carrito")
   }
 
   return (

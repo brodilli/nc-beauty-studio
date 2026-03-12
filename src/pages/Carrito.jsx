@@ -16,7 +16,7 @@ function Carrito() {
 
     const text = `Hola! Quiero reservar los siguientes servicios:%0A%0A${message}%0A%0ATotal: $${total}`
 
-    const phone = "5210000000000"
+    const phone = "523421029554"
 
     window.open(`https://wa.me/${phone}?text=${text}`, "_blank")
   }

@@ -16,7 +16,7 @@ const Home = () => {
             Relájate en un ambiente sereno y deja que tus manos hablen por ti.
           </p>
 
-          <a href="https://wa.me/521XXXXXXXXXX" className="btn hero-btn">
+          <a href="https://wa.me/523421029554" className="btn hero-btn">
             Reservar cita
           </a>
         </div>
@@ -188,7 +188,7 @@ const Home = () => {
 
           <p>Agenda tu cita y vive una experiencia de belleza única.</p>
 
-          <a href="https://wa.me/521XXXXXXXXXX" className="btn cta-btn">
+          <a href="https://wa.me/523421029554" className="btn cta-btn">
             Reservar por WhatsApp
           </a>
         </div>
