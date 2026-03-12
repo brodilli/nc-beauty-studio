@@ -1,7 +1,64 @@
 import BeautyCard from "../components/BeautyCard";
 import "../styles/home.css";
 import { FaInstagram } from "react-icons/fa";
-
+const services = [
+  {
+    id: 1,
+    title: "Uñas Esculturales",
+    text: "Extensión profesional con diferentes largos",
+    image: "/nc-beauty-studio/images/esculturales.jpg",
+    price: 300,
+  },
+  {
+    id: 2,
+    title: "Rubber Balance",
+    text: "Fortalecimiento de uña natural con diseño",
+    image: "/nc-beauty-studio/images/rubber.jpg",
+    price: 300,
+  },
+  {
+    id: 3,
+    title: "Técnica Híbrida",
+    text: "Extensión con polygel y sellado rubber",
+    image: "/nc-beauty-studio/images/hibrida.jpg",
+    price: 400,
+  },
+  {
+    id: 4,
+    title: "Pedicure Spa",
+    text: "Tratamiento completo con exfoliación y masaje",
+    image: "/nc-beauty-studio/images/pedicure.jpg",
+    price: 400,
+  },
+  {
+    id: 5,
+    title: "Retoque Acrílicas",
+    text: "Mantenimiento profesional de uñas",
+    image: "/nc-beauty-studio/images/retoque.jpg",
+    price: 300,
+  },
+  {
+    id: 6,
+    title: "Gel Semipermanente",
+    text: "Aplicación duradera en manos o pies",
+    image: "/nc-beauty-studio/images/gel.jpg",
+    price: 200,
+  },
+  {
+    id: 7,
+    title: "Retiro de Producto",
+    text: "Retiro seguro de acrílico, rubber o gel",
+    image: "/nc-beauty-studio/images/retiro.jpg",
+    price: 50,
+  },
+  {
+    id: 8,
+    title: "Maquillaje Social",
+    text: "Maquillaje profesional + peinado",
+    image: "/nc-beauty-studio/images/maquillaje.jpg",
+    price: 750,
+  },
+];
 const Home = () => {
   return (
     <div>
@@ -29,29 +86,16 @@ const Home = () => {
           <h2 className="section-title text-center mb-5">Servicios</h2>
 
           <div className="row">
-            <BeautyCard
-              id={1}
-              title="Uñas Acrílicas"
-              text="Diseños personalizados y duraderos"
-              image="https://images.unsplash.com/photo-1604654894610-df63bc536371"
-              price={350}
-            />
-
-            <BeautyCard
-              id={2}
-              title="Pedicure"
-              text="Relajación y estética premium para tus pies"
-              image="https://images.unsplash.com/photo-1596462502278-27bfdc403348"
-              price={250}
-            />
-
-            <BeautyCard
-              id={3}
-              title="Nail Art"
-              text="Diseños creativos y personalizados"
-              image="https://images.unsplash.com/photo-1607779097040-26e80aa78e66"
-              price={300}
-            />
+            {services.map((service) => (
+              <BeautyCard
+                key={service.id}
+                id={service.id}
+                title={service.title}
+                text={service.text}
+                image={service.image}
+                price={service.price}
+              />
+            ))}
           </div>
         </div>
       </section>
@@ -131,7 +175,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div className="col-md-6">
               <img
-                src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9"
+                src="/nc-beauty-studio/images/nc-cibrian.jpg"
                 className="about-img"
               />
             </div>
@@ -193,68 +237,56 @@ const Home = () => {
           </a>
         </div>
       </section>
-     <section className="instagram-section">
+      <section className="instagram-section">
+        <div className="container text-center">
+          <div className="instagram-header">
+            <FaInstagram className="instagram-icon" />
 
-  <div className="container text-center">
+            <h2 className="section-title">Síguenos en Instagram</h2>
 
-    <div className="instagram-header">
+            <p>Descubre nuestros últimos diseños y trabajos.</p>
+          </div>
 
-      <FaInstagram className="instagram-icon"/>
+          <div className="row g-3 instagram-grid">
+            <div className="col-md-3 col-6">
+              <img
+                src="/nc-beauty-studio/images/instagram_1.jpg"
+                className="insta-img"
+              />
+            </div>
 
-      <h2 className="section-title">
-        Síguenos en Instagram
-      </h2>
+            <div className="col-md-3 col-6">
+              <img
+                src="/nc-beauty-studio/images/instagram_2.jpg"
+                className="insta-img"
+              />
+            </div>
 
-      <p>
-        Descubre nuestros últimos diseños y trabajos.
-      </p>
+            <div className="col-md-3 col-6">
+              <img
+                src="/nc-beauty-studio/images/instagram_3.jpg"
+                className="insta-img"
+              />
+            </div>
 
-    </div>
+            <div className="col-md-3 col-6">
+              <img
+                src="/nc-beauty-studio/images/instagram_4.jpg"
+                className="insta-img"
+              />
+            </div>
+          </div>
 
-    <div className="row g-3 instagram-grid">
-
-      <div className="col-md-3 col-6">
-        <img
-          src="https://images.unsplash.com/photo-1604654894610-df63bc536371"
-          className="insta-img"
-        />
-      </div>
-
-      <div className="col-md-3 col-6">
-        <img
-          src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66"
-          className="insta-img"
-        />
-      </div>
-
-      <div className="col-md-3 col-6">
-        <img
-          src="https://images.unsplash.com/photo-1596462502278-27bfdc403348"
-          className="insta-img"
-        />
-      </div>
-
-      <div className="col-md-3 col-6">
-        <img
-          src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9"
-          className="insta-img"
-        />
-      </div>
-
-    </div>
-
-    <a
-      href="https://instagram.com"
-      target="_blank"
-      className="instagram-btn"
-    >
-      <FaInstagram />
-      Ver Instagram
-    </a>
-
-  </div>
-
-</section>
+          <a
+            href="https://www.instagram.com/nayeli_cibrianbs/"
+            target="_blank"
+            className="instagram-btn"
+          >
+            <FaInstagram />
+            Ver Instagram
+          </a>
+        </div>
+      </section>
     </div>
   );
 };
