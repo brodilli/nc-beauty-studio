@@ -66,3 +66,29 @@
   transform: translateY(-8px);
   box-shadow: 0 18px 40px rgba(0,0,0,0.15);
 }
+.beauty-card-footer{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-top:15px;
+}
+
+.beauty-price{
+font-weight:600;
+color:#221018;
+font-size:18px;
+}
+
+.beauty-add-btn{
+background:#d4af37;
+border:none;
+color:white;
+padding:8px 16px;
+border-radius:6px;
+cursor:pointer;
+transition:.3s;
+}
+
+.beauty-add-btn:hover{
+background:#b8962f;
+}

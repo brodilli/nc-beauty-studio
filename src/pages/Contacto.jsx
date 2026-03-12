@@ -26,7 +26,7 @@ function Contacto() {
             </p>
 
             <div className="contact-item">
-              📍 Guadalajara, México
+              📍 Sayula, Jalisco, México
             </div>
 
             <div className="contact-item">
