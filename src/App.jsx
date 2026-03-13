@@ -7,10 +7,12 @@ import Contacto from "./pages/Contacto"
 import Carrito from "./pages/Carrito"
 import Footer from "./components/Footer"
 import { Routes, Route } from "react-router-dom"
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
   return (
     <>
+    <ScrollToTop />
       <Navbar />
 
       <Routes>
