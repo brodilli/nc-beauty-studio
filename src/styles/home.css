@@ -1,0 +1,324 @@
+/* HERO */
+
+.hero-section {
+  background-image: url("/nc-beauty-studio/images/portada.png");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  color: white;
+  position: relative;
+}
+
+/* .hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+} */
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  color: #36242c;
+  margin-bottom: 20px;
+  font-size: 2.8rem;
+}
+
+.hero-section p {
+  max-width: 650px;
+  margin: auto;
+  color: #6b5a60;
+  font-size: 1.1rem;
+}
+
+.hero-btn {
+  margin-top: 30px;
+  background: #d4af37;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  transition: .3s;
+}
+
+.btn-icon {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.hero-btn:hover {
+  background: #b8962f;
+  color: white;
+}
+
+
+/* TITULOS */
+
+.section-title {
+  font-weight: 600;
+  color: #36242c;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #d4af37;
+  margin: 10px auto 0;
+}
+
+
+/* SERVICIOS */
+
+.services-section {
+  padding: 90px 0;
+  background: white;
+}
+
+
+/* BENEFICIOS */
+
+.benefits-section {
+  padding: 80px 0;
+  background: #fcf8fa;
+}
+
+.benefit {
+  padding: 20px;
+}
+
+.benefit h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #36242c;
+}
+
+.benefit p {
+  color: #6b5a60;
+}
+
+
+/* GALERIA PREVIEW */
+
+.gallery-preview {
+  padding: 80px 0;
+  background: white;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+}
+
+
+/* ABOUT */
+
+.about-section {
+  padding: 90px 0;
+  background: #f8f6f7;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.about-section p {
+  color: #6b5a60;
+}
+
+
+/* TESTIMONIOS */
+
+.testimonials-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.testimonial {
+  padding: 25px;
+  background: #fcf8fa;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #6b5a60;
+}
+
+.testimonial strong {
+  display: block;
+  margin-top: 10px;
+  color: #36242c;
+}
+
+
+/* CTA */
+.cta-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cta-section {
+  padding: 90px 20px;
+  background: #221018;
+  color: white;
+}
+
+.cta-section h2 {
+  margin-bottom: 10px;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  background: #d4af37;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  transition: .3s;
+}
+
+.cta-btn:hover {
+  background: #b8962f;
+  color: white;
+}
+
+/* INSTAGRAM */
+
+.instagram-section {
+  padding: 90px 0;
+  background: #fcf8fa;
+}
+
+.instagram-header {
+  margin-bottom: 40px;
+}
+
+.instagram-icon {
+  font-size: 32px;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.instagram-header p {
+  color: #6b5a60;
+  margin-top: 10px;
+}
+
+/* GRID */
+
+.instagram-grid {
+  margin-bottom: 40px;
+}
+
+.insta-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: .35s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+}
+
+.insta-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, .15);
+}
+
+/* BOTON */
+
+.instagram-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #d4af37;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.instagram-btn:hover {
+  background: #b8962f;
+  color: white;
+}
+
+.benefit-icon {
+  font-size: 42px;
+  margin-bottom: 15px;
+  color: #d4a373;
+  /* dorado elegante */
+}
+
+.benefit {
+  padding: 20px;
+}
+
+/*google reviews */
+.testimonial-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  height: 100%;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #d4af37;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.google-label {
+  font-size: 13px;
+  color: #777;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.stars {
+  color: #fbbc04;
+  margin-bottom: 10px;
+}

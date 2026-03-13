@@ -1,0 +1,107 @@
+/* NAVBAR BASE */
+
+.navbar-beauty{
+  background: #fcf8fa;
+  border-bottom: 2px solid #c0a94d;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  transition: all .3s ease;
+}
+
+/* LOGO */
+
+.brand-logo{
+  font-weight:700;
+  font-size:1.4rem;
+  color:#c0a94d;
+  letter-spacing:1px;
+  text-decoration:none;
+
+  transition: all .35s ease;
+  position:relative;
+}
+
+/* efecto hover */
+
+.brand-logo:hover{
+  color:#d4af37;
+  transform:translateY(-2px);
+  text-shadow:
+    0 0 6px rgba(212,175,55,.4),
+    0 0 14px rgba(212,175,55,.25);
+}
+
+/* línea elegante animada */
+
+.brand-logo::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:-4px;
+  width:0%;
+  height:2px;
+  background:#d4af37;
+  transition:width .35s ease;
+}
+
+.brand-logo:hover::after{
+  width:100%;
+}
+/* LINKS */
+
+.beauty-link{
+  color: #36242c;
+  font-weight: 500;
+  position: relative;
+  transition: all .25s ease;
+}
+
+/* HOVER */
+
+.beauty-link:hover{
+  color: #c0a94d;
+}
+
+/* LINEA DORADA ANIMADA */
+
+.beauty-link::after{
+  content:"";
+  position:absolute;
+  width:0%;
+  height:2px;
+  left:0;
+  bottom:-5px;
+  background:#c0a94d;
+  transition: width .3s;
+}
+
+.beauty-link:hover::after{
+  width:100%;
+}
+
+/* SOMBRA SUAVE */
+
+.navbar-beauty{
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.cart-link{
+position:relative;
+color:#221018;
+}
+
+.cart-badge{
+position:absolute;
+top:-8px;
+right:-10px;
+background:#d4af37;
+color:white;
+font-size:12px;
+width:18px;
+height:18px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:600;
+}
