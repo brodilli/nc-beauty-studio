@@ -2,14 +2,14 @@ import { useState } from "react";
 import "../styles/galeria.css";
 
 const images = [
-  "/nc-beauty-studio/images/trabajo1.jpg",
-  "/nc-beauty-studio/images/trabajo2.jpg",
-  "/nc-beauty-studio/images/trabajo3.jpg",
-  "/nc-beauty-studio/images/trabajo4.jpg",
-  "/nc-beauty-studio/images/esculturales.jpg",
-  "/nc-beauty-studio/images/gel.jpg",
-  "/nc-beauty-studio/images/hibrida.jpg",
-  "/nc-beauty-studio/images/rubber.jpg",
+  "/images/trabajo1.jpg",
+  "/images/trabajo2.jpg",
+  "/images/trabajo3.jpg",
+  "/images/trabajo4.jpg",
+  "/images/esculturales.jpg",
+  "/images/gel.jpg",
+  "/images/hibrida.jpg",
+  "/images/rubber.jpg",
 ];
 
 function Galeria() {

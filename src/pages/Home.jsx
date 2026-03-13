@@ -9,56 +9,56 @@ const services = [
     id: 1,
     title: "Uñas Esculturales",
     text: "Extensión profesional con diferentes largos",
-    image: "/nc-beauty-studio/images/esculturales.jpg",
+    image: "/images/esculturales.jpg",
     price: 300,
   },
   {
     id: 2,
     title: "Rubber Balance",
     text: "Fortalecimiento de uña natural con diseño",
-    image: "/nc-beauty-studio/images/rubber.jpg",
+    image: "/images/rubber.jpg",
     price: 300,
   },
   {
     id: 3,
     title: "Técnica Híbrida",
     text: "Extensión con polygel y sellado rubber",
-    image: "/nc-beauty-studio/images/hibrida.jpg",
+    image: "/images/hibrida.jpg",
     price: 400,
   },
   {
     id: 4,
     title: "Pedicure Spa",
     text: "Tratamiento completo con exfoliación y masaje",
-    image: "/nc-beauty-studio/images/pedicure.jpg",
+    image: "/images/pedicure.jpg",
     price: 400,
   },
   {
     id: 5,
     title: "Retoque Acrílicas",
     text: "Mantenimiento profesional de uñas",
-    image: "/nc-beauty-studio/images/retoque.jpg",
+    image: "/images/retoque.jpg",
     price: 300,
   },
   {
     id: 6,
     title: "Gel Semipermanente",
     text: "Aplicación duradera en manos o pies",
-    image: "/nc-beauty-studio/images/gel.jpg",
+    image: "/images/gel.jpg",
     price: 200,
   },
   {
     id: 7,
     title: "Retiro de Producto",
     text: "Retiro seguro de acrílico, rubber o gel",
-    image: "/nc-beauty-studio/images/retiro.jpg",
+    image: "/images/retiro.jpg",
     price: 50,
   },
   {
     id: 8,
     title: "Maquillaje Social",
     text: "Maquillaje profesional + peinado",
-    image: "/nc-beauty-studio/images/maquillaje.jpg",
+    image: "/images/maquillaje.jpg",
     price: 750,
   },
 ];
@@ -147,28 +147,28 @@ const Home = () => {
           <div className="row">
             <div className="col-md-3">
               <img
-                src="/nc-beauty-studio/images/trabajo1.jpg"
+                src="/images/trabajo1.jpg"
                 className="gallery-img"
               />
             </div>
 
             <div className="col-md-3">
               <img
-                src="/nc-beauty-studio/images/trabajo2.jpg"
+                src="/images/trabajo2.jpg"
                 className="gallery-img"
               />
             </div>
 
             <div className="col-md-3">
               <img
-                src="/nc-beauty-studio/images/trabajo3.jpg"
+                src="/images/trabajo3.jpg"
                 className="gallery-img"
               />
             </div>
 
             <div className="col-md-3">
               <img
-                src="/nc-beauty-studio/images/trabajo4.jpg"
+                src="/images/trabajo4.jpg"
                 className="gallery-img"
               />
             </div>
@@ -183,7 +183,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div className="col-md-6">
               <img
-                src="/nc-beauty-studio/images/nc-cibrian.jpg"
+                src="/images/nc-cibrian.jpg"
                 className="about-img"
               />
             </div>
@@ -302,7 +302,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div className="col-md-6">
               <img
-                src="/nc-beauty-studio/images/nails-cta.jpg"
+                src="/images/nails-cta.jpg"
                 alt="Servicio de uñas"
                 className="cta-image"
               />
@@ -333,28 +333,28 @@ const Home = () => {
           <div className="row g-3 instagram-grid">
             <div className="col-md-3 col-6">
               <img
-                src="/nc-beauty-studio/images/instagram_1.jpg"
+                src="/images/instagram_1.jpg"
                 className="insta-img"
               />
             </div>
 
             <div className="col-md-3 col-6">
               <img
-                src="/nc-beauty-studio/images/instagram_2.jpg"
+                src="/images/instagram_2.jpg"
                 className="insta-img"
               />
             </div>
 
             <div className="col-md-3 col-6">
               <img
-                src="/nc-beauty-studio/images/instagram_3.jpg"
+                src="/images/instagram_3.jpg"
                 className="insta-img"
               />
             </div>
 
             <div className="col-md-3 col-6">
               <img
-                src="/nc-beauty-studio/images/instagram_4.jpg"
+                src="/images/instagram_4.jpg"
                 className="insta-img"
               />
             </div>
